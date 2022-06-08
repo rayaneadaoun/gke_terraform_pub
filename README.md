@@ -13,6 +13,7 @@ $ gcloud auth application-default login
 #### terrafrom command
 ```bash 
 $ terraform init 
+$ terraform workspace select gke_admin
 $ terraform apply -auto-approve
 ```
 
